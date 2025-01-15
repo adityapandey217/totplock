@@ -1,0 +1,13 @@
+flutter_native_splash:
+  android: true
+  ios: true
+  web: true
+
+  background_image: assets/background.png
+  image: assets/logo.png
+  branding: assets/branding.png
+
+  android_12:
+    color: "#eaedfa"
+    image: assets/android_logo.png
+    branding: assets/android_branding.png
