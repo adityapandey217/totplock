@@ -48,12 +48,13 @@ TotpLock is a Flutter application for managing Time-based One-Time Passwords (TO
 Download the app from the Google Play Store: [TotpLock](https://play.google.com/store/apps/details?id=com.afelion.totplock)
 
 ## Screenshots
-![Screenshot 1](screenshots/splash.png)
-![Screenshot 2](screenshots/home.png)
-![Screenshot 3](screenshots/home2.png)
-![Screenshot 4](screenshots/qr_scan.png)
-![Screenshot 5](screenshots/setup_key.png)
-
+<p align="center">
+  <img src="screenshots/splash.png" alt="Splash Screen" width="200"/>
+  <img src="screenshots/home.png" alt="Home Screen" width="200"/>
+  <img src="screenshots/home2.png" alt="Home Screen 2" width="200"/>
+  <img src="screenshots/qr_scan.png" alt="QR Scan Screen" width="200"/>
+  <img src="screenshots/setup_key.png" alt="Setup Key Screen" width="200"/>
+</p>
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
