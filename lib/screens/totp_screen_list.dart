@@ -3,10 +3,10 @@ import 'package:flutter/rendering.dart';
 import 'package:totplock/screens/qr_code_scanner_screen.dart';
 import 'package:totplock/screens/setup_key_screen.dart';
 import 'package:totplock/screens/totp_list_item.dart';
-import 'package:totplock/utils/apptheme.dart';
+import 'package:totplock/utils/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:totplock/utils/totp_provider.dart';
+import 'package:totplock/providers/totp_provider.dart';
 import 'package:otp/otp.dart';
 import 'package:flutter_expandable_fab/flutter_expandable_fab.dart';
 

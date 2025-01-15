@@ -1,4 +1,4 @@
-import 'package:totplock/utils/totp_provider.dart';
+import 'package:totplock/models/totp_entry.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

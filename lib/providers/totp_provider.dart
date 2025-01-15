@@ -1,21 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
-class TotpEntry {
-  final String totpUri;
-  final String secret;
-  final String name;
-  final String issuer;
-  int remainingTime;
-
-  TotpEntry(
-      {required this.totpUri,
-      required this.secret,
-      this.remainingTime = 30,
-      this.name = '',
-      this.issuer = ''});
-}
+import 'package:totplock/models/totp_entry.dart';
 
 class TotpProvider extends ChangeNotifier {
   final List<TotpEntry> _totpList = [];

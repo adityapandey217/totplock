@@ -1,5 +1,5 @@
 import 'package:image_picker/image_picker.dart';
-import 'package:totplock/utils/totp_provider.dart';
+import 'package:totplock/providers/totp_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
 import 'package:provider/provider.dart';

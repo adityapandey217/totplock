@@ -1,7 +1,7 @@
 import 'package:totplock/screens/totp_screen_list.dart';
-import 'package:totplock/utils/apptheme.dart';
+import 'package:totplock/utils/app_theme.dart';
 import 'package:totplock/utils/theme_settings.dart';
-import 'package:totplock/utils/totp_provider.dart';
+import 'package:totplock/providers/totp_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';

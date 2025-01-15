@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:totplock/components/button.dart';
-import 'package:totplock/utils/totp_provider.dart';
+import 'package:totplock/providers/totp_provider.dart';
 import 'package:f_authenticator/f_authenticator.dart';
 
 class SetupKeyScreen extends StatefulWidget {
@@ -170,22 +170,6 @@ class _SetupKeyScreenState extends State<SetupKeyScreen> {
                   ),
                 ),
                 const SizedBox(height: 24),
-                // SizedBox(
-                //   width: double.infinity,
-                //   height: 50,
-                //   child: ElevatedButton.icon(
-                //     onPressed: saveAccount,
-                //     icon: const Icon(Icons.save),
-                //     label: const Text('Save Account'),
-                //     style: ElevatedButton.styleFrom(
-                //       foregroundColor: Colors.white,
-                //       backgroundColor: Theme.of(context).colorScheme.primary,
-                //       shape: RoundedRectangleBorder(
-                //         borderRadius: BorderRadius.circular(8),
-                //       ),
-                //     ),
-                //   ),
-                // ),
                 Button(onPressed: saveAccount, text: 'Save Account'),
                 const SizedBox(height: 16),
                 const Card(
